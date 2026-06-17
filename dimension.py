@@ -1,7 +1,7 @@
 import cv2
-image =cv2.imread("ram.jpeg")
-if image is not None:
-    w,h,c=image.shape
+hi =cv2.imread("ram.jpeg")
+if hi is not None:
+    w,h,c=hi.shape
     # print(f"Image loaded:\n height :{h}\nwidth :{w}\nchannel :{c}")
     print(w)
     print(c)
