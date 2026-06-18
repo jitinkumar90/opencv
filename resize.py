@@ -1,7 +1,7 @@
 import cv2
 image=cv2.imread("ram.jpeg")
 if image is not None:
-    resizedimage=cv2.resize(image,(200,200))
+    resizedimage=cv2.resize(image,(800,900))
     cv2.imshow("resize",resizedimage)
     cv2.imshow("original",image)
     cv2.waitKey(0)
